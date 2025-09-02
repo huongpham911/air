@@ -6,7 +6,7 @@ ENV PUID=1000 \
     PGID=1000 \
     TZ=Asia/Ho_Chi_Minh
 
-# Mở port 3000 cho Web UI
-EXPOSE 3000
+# Expose port 5555 thay vì 3000
+EXPOSE 5555
 
 # Giữ nguyên entrypoint/cmd mặc định của image gốc
